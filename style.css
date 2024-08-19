@@ -68,8 +68,7 @@ a {
 }
 
 .second__navbar .select_option {
-    width: 300px;
-    padding: 10px 30px;
+    padding: 10px 8px;
     border: 2px solid #012f34;
     background-color: #fff;
     border-radius: 4px;
@@ -115,7 +114,7 @@ a {
     right: 0;
     color: #fff;
     cursor: pointer;
-    height: 47px;
+    height: 43px;
 }
 
 .login__btn {
@@ -925,5 +924,17 @@ table {
     .second-navbar__logo a svg {
         width: 80px;
         margin-top: 10px;
+    }
+    .actions__links{
+      margin-top: 15px;
+    }
+    .select_option{
+        margin-left: -30px;
+    }
+    .search__bar{
+        margin-left: -30px;
+    }
+    .search__bar input {
+        display: none;
     }
 }
