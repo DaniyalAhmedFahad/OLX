@@ -327,7 +327,7 @@ a {
 }
 
 footer {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .footer_the_olx_app_section {
@@ -348,6 +348,10 @@ footer {
 .footer_olx_content h3 {
     font-weight: 400;
     margin-top: 10px;
+}
+
+.footer-responsive {
+    display: none;
 }
 
 .get__your_app_today {
@@ -784,11 +788,13 @@ p {
     margin-bottom: 10px;
     margin-left: 20px;
 }
-.all-categories-container h2{
+
+.all-categories-container h2 {
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: 20px;
 }
+
 .head {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -940,31 +946,106 @@ table {
     .select__itself {
         font-size: 15px;
     }
-    .second__navbar{
+
+    .second__navbar {
         margin-left: 35px;
     }
-    .categories-main{
+
+    .categories-main {
         margin-left: 30px;
     }
-    .select__itself{
+
+    .select__itself {
         margin-right: 10px;
     }
-    .third__navbar{
+
+    .third__navbar {
         padding: 20px 15px;
     }
-    .productDetails{
+
+    .productDetails {
         flex-direction: column;
         margin-top: 0px;
     }
-    .left__side{
+
+    .left__side {
         width: 550px;
     }
-    .detail-BOX{
+
+    .detail-BOX {
         display: flex;
         justify-content: center;
     }
-    .right__side{
+
+    .right__side {
         width: 550px;
         flex-direction: column-reverse;
     }
+
+    footer {
+        display: none;
+    }
+
+    .footer-responsive {
+        display: block;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+
+}
+
+.footer-button {
+    padding: 25px 40px;
+    border-top: 1.5px solid rgb(197, 197, 197);
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__bottom {
+    font-size: 18px;
+    padding: 30px 0px;
+    font-weight: 600;
+}
+
+.footer-word h2 {
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.ri-arrow-right-s-line {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.ri-linkedin-box-line,
+.ri-instagram-line,
+.ri-facebook-box-line,
+.ri-play-circle-line {
+    font-size: 35px;
+    color: #0169759f;
+    font-weight: 100;
+}
+
+.ri-linkedin-box-line,
+.ri-instagram-line,
+.ri-facebook-box-line {
+    margin-right: 10px;
+}
+
+.footer-button-link-app {
+    padding: 25px 40px;
+    border-top: 1.5px solid rgb(197, 197, 197);
+    display: flex;
+    justify-content: center;
+}
+
+.apps-link {
+    width: 180px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+.apps-link img{
+    padding: 0px 10px;
 }
