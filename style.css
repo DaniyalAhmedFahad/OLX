@@ -34,6 +34,7 @@ a {
     top: 0;
     z-index: 1990;
     position: fixed;
+    width: 100%;
 }
 
 .small__navbar {
@@ -937,4 +938,19 @@ table {
     .search__bar input {
         display: none;
     }
+    .card-flex{
+        overflow-x: scroll;
+    }
+    .slide img{
+        width: 600px;
+        height: 140px;
+    }
+    .main-container{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
+    ::-webkit-scrollbar {
+        width: 0px;
+    }
