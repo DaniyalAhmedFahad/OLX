@@ -8,9 +8,11 @@
     list-style: none;
     box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
 }
+
 .back_to_top h3 {
     position: fixed;
     top: 120px;
@@ -35,11 +37,10 @@ a{
 }
 
 .small__navbar {
-
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    width: 100%;
+    width: 1200px;
     padding: 20px;
     height: 70px;
 }
@@ -126,11 +127,6 @@ a{
     border-bottom: 1px solid #012f34;
     font-weight: 400;
     background: none;
-}
-
-
-.login__btn :hover {
-    border-bottom: none;
 }
 
 .login__sell {
@@ -406,6 +402,7 @@ footer {
     cursor: pointer;
     margin-right: 10px;
 }
+
 .footer__content {
     background-color: rgba(0, 47, 52, .03);
     width: 100%;
@@ -521,6 +518,7 @@ footer {
     border: 2px solid #012f34;
     width: 80%;
     display: flex;
+    flex-wrap: wrap;
     background: none;
     align-items: center;
     justify-content: flex-start;
@@ -727,9 +725,11 @@ h3,
 p {
     margin: 10px;
 }
-.description h1{
+
+.description h1 {
     margin-top: 10px;
 }
+
 .left__side .description h1,
 h3,
 p {
@@ -747,10 +747,12 @@ p {
 .price__location_card p i {
     margin-right: 10px;
 }
-.description p i{
+
+.description p i {
     margin-right: 10px;
     margin-left: -10px;
 }
+
 .right__side {
     width: 32%;
     display: flex;
@@ -776,10 +778,12 @@ p {
     border-radius: 6px;
     justify-content: space-between;
 }
-#main{
+
+#main {
     border: 1px solid black;
     border-radius: 8px;
 }
+
 .avaar {
     display: flex;
     align-items: center;
@@ -806,13 +810,16 @@ p {
     margin-top: 50px;
     margin-bottom: 40px;
 }
-.head{
+
+.head {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.card-flex{
+
+.card-flex {
     display: flex;
 }
+
 .main-container {
     max-width: 1200px;
     margin-left: auto;
@@ -824,22 +831,23 @@ p {
 .login__sell {
     margin-right: 30px;
 }
+
 .e0339389 {
     margin-bottom: 4rem;
     row-gap: 1.6rem;
 }
 
-._74d21682 {
-    flex-wrap: wrap;
-}
 ._948d9e0a {
     display: flex;
+    flex-wrap: wrap;
 }
+
 a {
     color: #222;
     text-decoration: black;
     text-decoration: none;
 }
+
 .categories-box {
     font-size: 1.6rem;
     font-weight: 700;
@@ -847,40 +855,75 @@ a {
     margin: 0;
     text-align: center;
 }
-.categories-box img{
+
+.categories-box img {
 
     border-radius: 100%;
     height: 80px;
     width: 80px;
 }
+
 .af339672 {
-    margin-top: .8rem;
-    width: 10.6rem;
+    margin-top: 5px;
+    width: 133px;
     font-size: 15px;
     color: black;
     text-align: center;
 }
-.slide img{
+
+.slide img {
     width: 1200px;
     border-radius: 5px;
 }
-#image{
+
+#image {
     border: 1px solid white;
     border-radius: 50%;
 }
-  td,
-  th {
+
+td,
+th {
     border: 1px solid #F2F4F5;
     padding: 5px;
     background-color: #F2F4F5;
-padding-left: 50px;
-  }
-  table{
+    padding-left: 50px;
+}
+
+table {
     background-color: #F2F4F5;
     width: 380px;
     margin-bottom: 20px;
     margin-top: 20px;
-  }
-  .heading-cont h2{
+}
+
+.heading-cont h2 {
     margin-top: 100px;
-  }
+}
+
+@media screen and (max-width:600px) {
+    .small__navbar {
+        width: 600px;
+    }
+
+    .search__bar input {
+        display: none;
+    }
+
+    .second__navbar .search__bar {
+        width: 0px;
+        border: none;
+    }
+
+    .search__bar i {
+        border-radius: 4px;
+    }
+
+    .search__bar {
+        justify-content: space-between;
+    }
+
+    .second-navbar__logo a svg {
+        width: 80px;
+        margin-top: 10px;
+    }
+}
