@@ -13,22 +13,6 @@ a {
     text-decoration: none;
 }
 
-.back_to_top h3 {
-    position: fixed;
-    top: 120px;
-    left: 600px;
-    padding: 10px 30px;
-    border-radius: 30px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    background-color: #fff;
-    z-index: 1000;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 190px;
-}
-
 .same__color {
     background-color: white;
     top: 0;
@@ -58,7 +42,6 @@ a {
 .second__navbar {
     display: flex;
     align-items: center;
-    justify-content: center;
     width: 100%;
     height: 80px;
 }
@@ -69,7 +52,7 @@ a {
 }
 
 .second__navbar .select_option {
-    padding: 10px 8px;
+    padding: 10px 30px;
     border: 2px solid #012f34;
     background-color: #fff;
     border-radius: 4px;
@@ -158,7 +141,7 @@ a {
     align-items: center;
     margin-top: 150px;
     justify-content: flex-start;
-    width: 100%;
+    width: 1200px;
     height: 50px;
     padding: 20px 20px;
 }
@@ -190,10 +173,6 @@ a {
 
 .select__itself i {
     font-size: 20px;
-}
-
-.select__itself p {
-    margin-top: 15px;
 }
 
 .third__navbar .links {
@@ -230,11 +209,6 @@ a {
     width: 100%;
     height: auto;
     margin-top: 30px;
-}
-
-.fresh__recomandation h1 {
-    font-weight: 400;
-    margin-left: 30px;
 }
 
 .cards__container {
@@ -687,7 +661,6 @@ footer {
 
 .productDetails {
     width: 100%;
-    height: 130vh;
     padding: 20px;
     margin-top: 50px;
     display: flex;
@@ -807,10 +780,15 @@ p {
 }
 
 .heading {
-    margin-top: 50px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px;
 }
-
+.all-categories-container h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
 .head {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -896,10 +874,6 @@ table {
     margin-top: 20px;
 }
 
-.heading-cont h2 {
-    margin-top: 100px;
-}
-
 @media screen and (max-width:600px) {
     .small__navbar {
         width: 600px;
@@ -926,31 +900,71 @@ table {
         width: 80px;
         margin-top: 10px;
     }
-    .actions__links{
-      margin-top: 15px;
+
+    .actions__links {
+        margin-top: 15px;
     }
-    .select_option{
+
+    .select_option {
         margin-left: -30px;
     }
-    .search__bar{
+
+    .search__bar {
         margin-left: -30px;
     }
+
     .search__bar input {
         display: none;
     }
-    .card-flex{
+
+    .card-flex {
         overflow-x: scroll;
     }
-    .slide img{
+
+    .slide img {
         width: 600px;
         height: 140px;
     }
-    .main-container{
+
+    .main-container {
         margin-left: auto;
         margin-right: auto;
+        width: 600px;
+        overflow-x: hidden;
     }
 
-}
-    ::-webkit-scrollbar {
-        width: 0px;
+    .second__navbar {
+        margin-left: 30px;
     }
+
+    .select__itself {
+        font-size: 15px;
+    }
+    .second__navbar{
+        margin-left: 50px;
+    }
+    .categories-main{
+        margin-left: 30px;
+    }
+    .select__itself{
+        margin-right: 10px;
+    }
+    .third__navbar{
+        padding: 20px 15px;
+    }
+    .productDetails{
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .left__side{
+        width: 550px;
+    }
+    .detail-BOX{
+        display: flex;
+        justify-content: center;
+    }
+    .right__side{
+        width: 550px;
+        flex-direction: column-reverse;
+    }
+}
