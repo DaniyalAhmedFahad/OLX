@@ -862,6 +862,7 @@ a {
 }
 .slide img{
     width: 1200px;
+    border-radius: 5px;
 }
 #image{
     border: 1px solid white;
